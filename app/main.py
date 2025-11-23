@@ -21,7 +21,7 @@ app = FastAPI(lifespan=lifespan)
 
 origins = [
     "http://localhost:3000",
-    "https://chotu-dairy-frontend.vercel.app"
+    "https://chotu-dairy.vercel.app"
 ]
 
 app.add_middleware(
